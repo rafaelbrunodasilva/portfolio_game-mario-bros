@@ -5,3 +5,7 @@
 
 ### PT
 ### Pequeno jogo inspirado no jogo clássico do Mario. Desenvolvido durante curso da StartSe, o Tech Academy #1
+
+### Acess the page below to play the small game
+
+https://rafaelbrunodasilva.github.io/portfolio_game-mario-bros/
