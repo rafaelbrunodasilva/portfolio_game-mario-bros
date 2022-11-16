@@ -3,7 +3,7 @@ const pipe = document.querySelector('.pipe-game');
 const container = document.querySelector('div.container');
 const menu = document.querySelector('div.menu');
 const counter = document.querySelector('span.counter');
-
+const videoGameButton = document.querySelector('div.video-game-button');
 
 const jump = () => {
     mario.classList.add("jump-mario");
@@ -42,4 +42,5 @@ const loopGame = setInterval(() => {
 });
 
 document.addEventListener("keydown", jump);
-document.addEventListener("click", jump);
+// document.addEventListener("click", jump);
+videoGameButton.addEventListener("click", jump);
