@@ -1,5 +1,6 @@
 const mario = document.querySelector('.super-mario');
 const pipe = document.querySelector('.pipe-game');
+const container = document.querySelector('div.container');
 const menu = document.querySelector('div.menu');
 const counter = document.querySelector('span.counter');
 
@@ -32,6 +33,7 @@ const loopGame = setInterval(() => {
 
         clearInterval(loopGame);
 
+        container.style.visibility = "visible";
         menu.style.animation = "menu-animation 1000ms";
         menu.style.opacity = "1";
         counter.innerHTML = points;
@@ -40,3 +42,4 @@ const loopGame = setInterval(() => {
 });
 
 document.addEventListener("keydown", jump);
+document.addEventListener("click", jump);
